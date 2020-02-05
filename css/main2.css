@@ -1,0 +1,95 @@
+
+
+#container{
+display:grid;
+border: 1px solid black;
+grid-template-columns: 1fr 3fr;
+grid-template-rows:  calc(16vh - 10px) calc(16vh - 10px) calc(16vh - 10px) calc(16vh - 10px) calc(16vh - 10px) calc(16vh - 10px);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+
+#container .titulo{
+
+  padding: 9px;
+  border-radius: 5px;
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+#container .foto{
+  padding: 9px;
+
+  border-radius: 5px;
+  grid-column: 2/2;
+  grid-row:  2/3 ;
+}
+#container .foto img{
+  width: 85%;
+  height: 200%;
+
+}
+#container .informacio{
+  padding: 9px;
+
+  border-radius: 5px;
+  grid-column: 2/2;
+  grid-row:  4/5 ;
+}
+#container .uno{
+  padding: 9px;
+
+  border-radius: 5px;
+  grid-column: 1/1;
+  grid-row:/ ;
+}
+#container .dos{
+  padding: 9px;
+
+  border-radius: 5px;
+  grid-column: 1/1;
+  grid-row:/ ;
+}
+#container .dos img{
+  height: 5px;
+  width: 5px;
+}
+#container .tres{
+  padding: 9px;
+
+  border-radius: 5px;
+  grid-column: 1/1;
+  grid-row:/ ;
+}
+#container .tres img{
+  height: 5px;
+  width: 5px;
+}
+#container .cuatro{
+  padding: 9px;
+
+  border-radius: 5px;
+  grid-column: 1/1;
+  grid-row:/ ;
+}
+#container .cuatro img{
+  height: 5px;
+  width: 5px;
+}
+#container .cinco{
+  padding: 9px;
+
+  border-radius: 5px;
+  grid-column: 1/1;
+  grid-row: /;
+}
+#container .cinco img{
+  height: 5px;
+  width: 5px;
+}
+#container .peu{
+  padding: 70px;
+ text-align: center;
+  border-radius: 5px;
+  grid-column: 2/2;
+  grid-row:6/7;
+}
