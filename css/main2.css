@@ -24,8 +24,8 @@ grid-row-gap: 10px;
   grid-row:  2/3 ;
 }
 #container .foto img{
-  width: 85%;
-  height: 200%;
+  width: 30%;
+  height: 105%;
 
 }
 #container .informacio{
@@ -33,7 +33,7 @@ grid-row-gap: 10px;
 
   border-radius: 5px;
   grid-column: 2/2;
-  grid-row:  4/5 ;
+  grid-row:  3/4 ;
 }
 #container .uno{
   padding: 9px;
@@ -41,6 +41,10 @@ grid-row-gap: 10px;
   border-radius: 5px;
   grid-column: 1/1;
   grid-row:/ ;
+}
+#container .uno img{
+  height: 50px;
+  width: 50px;
 }
 #container .dos{
   padding: 9px;
@@ -50,8 +54,8 @@ grid-row-gap: 10px;
   grid-row:/ ;
 }
 #container .dos img{
-  height: 5px;
-  width: 5px;
+  height: 50px;
+  width: 50px;
 }
 #container .tres{
   padding: 9px;
@@ -61,8 +65,8 @@ grid-row-gap: 10px;
   grid-row:/ ;
 }
 #container .tres img{
-  height: 5px;
-  width: 5px;
+  height: 50px;
+  width: 50px;
 }
 #container .cuatro{
   padding: 9px;
@@ -72,19 +76,19 @@ grid-row-gap: 10px;
   grid-row:/ ;
 }
 #container .cuatro img{
-  height: 5px;
-  width: 5px;
+  height:50px;
+  width: 50px;
 }
-#container .cinco{
+#container .cico{
   padding: 9px;
 
   border-radius: 5px;
   grid-column: 1/1;
   grid-row: /;
 }
-#container .cinco img{
-  height: 5px;
-  width: 5px;
+#container .cico img{
+  height: 50px;
+  width: 60px;
 }
 #container .peu{
   padding: 70px;
@@ -92,4 +96,10 @@ grid-row-gap: 10px;
   border-radius: 5px;
   grid-column: 2/2;
   grid-row:6/7;
+}
+#container p {
+  color:black;
+}
+#container{
+  background-color: #ffffff7d;
 }
