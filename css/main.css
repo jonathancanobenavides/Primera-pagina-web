@@ -1,11 +1,13 @@
+
 #container{
 display:grid;
 border: 1px solid black;
 grid-template-columns: 1fr 2.5fr 0.5fr 2.5fr 1fr;
-grid-template-rows:  calc(5vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(30vh - 10px) calc(5vh - 10px) ;
-grid-column-gap: 10px;
-grid-row-gap: 10px;
+grid-template-rows:  calc(15vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(30vh - 10px) calc(15vh - 10px) ;
+
+background-color: #ffffff7d;
 }
+
 
 #container .celda1{
   padding: 9px;
@@ -16,7 +18,7 @@ grid-row-gap: 10px;
 
 #container .celda1 img{
   width: 55%;
-  height: 150%;
+  height: 120%;Black
 }
 
 #container .celda2{
@@ -29,7 +31,7 @@ grid-row-gap: 10px;
 
 #container .celda2 img{
   width: 55%;
-  height: 150%;
+  height: 120%;
 }
 
 #container .celda3{
@@ -42,7 +44,7 @@ grid-row-gap: 10px;
 
 #container .celda3 img{
   width: 55%;
-  height:150%;
+  height: 120%;
 }
 #container .celda4{
   padding: 9px;
@@ -54,17 +56,19 @@ grid-row-gap: 10px;
 
 #container .celda4 img{
   width: 60%;
-  height: 150%;
+  height: 120%;
 }
 
 p{
-  color: white;
-
+  color: Black;
+background-color: #ffffff7d;
 }
 h1{
-  color: white;
+  color: Black;
   text-decoration: underline;
+  background-color: #ffffff7d;
 }
 footer{
-  color: white;
+  color: Black;
+  background-color: #ffffff7d;
 }

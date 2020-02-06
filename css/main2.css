@@ -42,9 +42,8 @@ grid-row-gap: 10px;
   grid-column: 1/1;
   grid-row:/ ;
 }
-#container .uno img{
-  height: 50px;
-  width: 50px;
+#container h2{
+  text-decoration: underline;
 }
 #container .dos{
   padding: 9px;
@@ -54,8 +53,8 @@ grid-row-gap: 10px;
   grid-row:/ ;
 }
 #container .dos img{
-  height: 50px;
-  width: 50px;
+  height:70px;
+  width: 70px;
 }
 #container .tres{
   padding: 9px;
@@ -65,8 +64,8 @@ grid-row-gap: 10px;
   grid-row:/ ;
 }
 #container .tres img{
-  height: 50px;
-  width: 50px;
+  height:70px;
+  width: 70px;
 }
 #container .cuatro{
   padding: 9px;
@@ -76,8 +75,8 @@ grid-row-gap: 10px;
   grid-row:/ ;
 }
 #container .cuatro img{
-  height:50px;
-  width: 50px;
+  height:70px;
+  width: 70px;
 }
 #container .cico{
   padding: 9px;
@@ -88,7 +87,7 @@ grid-row-gap: 10px;
 }
 #container .cico img{
   height: 50px;
-  width: 60px;
+  width: 100px;
 }
 #container .peu{
   padding: 70px;
