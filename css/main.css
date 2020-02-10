@@ -3,7 +3,7 @@
 display:grid;
 border: 1px solid black;
 grid-template-columns: 1fr 2.5fr 0.5fr 2.5fr 1fr;
-grid-template-rows:  calc(15vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(30vh - 10px) calc(15vh - 10px) ;
+grid-template-rows:  calc(10vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(30vh - 10px) calc(10vh - 10px) ;
 
 background-color: #ffffff7d;
 }
@@ -71,4 +71,8 @@ h1{
 footer{
   color: Black;
   background-color: #ffffff7d;
+}
+body{
+  background-image: url('../img/fondo.gif');
+  background-size:cover;
 }

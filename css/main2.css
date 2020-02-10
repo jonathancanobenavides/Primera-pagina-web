@@ -12,20 +12,23 @@ grid-row-gap: 10px;
 #container .titulo{
 
   padding: 9px;
+
   border-radius: 5px;
   grid-column: 2/2;
   grid-row: 1/2;
 }
 #container .foto{
-  padding: 9px;
 
+margin-left: 30%;
+margin-right: 35% ;
   border-radius: 5px;
   grid-column: 2/2;
   grid-row:  2/3 ;
+  margin-top: 0;
 }
 #container .foto img{
-  width: 30%;
-  height: 105%;
+  width: 100%;
+  height: 100%;
 
 }
 #container .informacio{
@@ -101,4 +104,8 @@ grid-row-gap: 10px;
 }
 #container{
   background-color: #ffffff7d;
+}
+body{
+background-image: url('../img/fondo2.gif');
+background-size:cover;
 }
